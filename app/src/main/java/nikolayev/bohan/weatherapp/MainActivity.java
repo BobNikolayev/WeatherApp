@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     boolean isOrientationPortrait = getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT;
 
-        Button setCity = (Button) findViewById(R.id.citySetBtn);
+//        Button setCity = (Button) findViewById(R.id.citySetBtn);
 
     if(isOrientationPortrait){
         Fragment fragmentWeather = new WeatherFragment();
