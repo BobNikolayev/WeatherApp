@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".WeatherFragment">
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.25" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.5" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.7518248" />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="0dp"
+    android:layout_height="120dp"
+    android:src="@drawable/solnce"
+    app:layout_constraintBottom_toBottomOf="@+id/textView16"
+    app:layout_constraintEnd_toStartOf="@+id/guideline10"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:text="CitySelected"
+    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+    app:layout_constraintStart_toStartOf="@+id/guideline10"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView15"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:text="Date"
+    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+    app:layout_constraintStart_toStartOf="@+id/guideline10"
+    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+<TextView
+    android:id="@+id/textView16"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:text="Weather"
+    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+    app:layout_constraintHorizontal_bias="0.493"
+    app:layout_constraintStart_toStartOf="@+id/guideline10"
+    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:src="@android:drawable/ic_menu_manage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/citySetBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="set your city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/humidity"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/citySetBtn" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rain16251"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline11"
+        app:layout_constraintTop_toBottomOf="@+id/citySetBtn" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/w112h2641393885391138"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@+id/citySetBtn" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/wind__v1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/citySetBtn" />
+
+<TextView
+    android:id="@+id/textView17"
+    android:layout_width="0dp"
+    android:layout_height="20dp"
+    android:text="TextView"
+    app:layout_constraintEnd_toStartOf="@+id/guideline10"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+<TextView
+    android:id="@+id/textView18"
+    android:layout_width="0dp"
+    android:layout_height="20dp"
+    android:text="TextView"
+    app:layout_constraintEnd_toStartOf="@+id/guideline11"
+    app:layout_constraintStart_toStartOf="@+id/guideline10"
+    app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+<TextView
+    android:id="@+id/textView19"
+    android:layout_width="0dp"
+    android:layout_height="20dp"
+    android:text="TextView"
+    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+    app:layout_constraintStart_toStartOf="@+id/guideline11"
+    app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
