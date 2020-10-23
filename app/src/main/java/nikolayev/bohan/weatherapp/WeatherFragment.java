@@ -25,12 +25,16 @@ public class WeatherFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+//        setCity.findViewById(R.id.citySetBtn);
         return inflater.inflate(R.layout.fragment_weather, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+//        setCity.findViewById(R.id.citySetBtn);
 
     }
 
@@ -38,14 +42,14 @@ public class WeatherFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+//        setCity.findViewById(R.id.citySetBtn);
 
 
     }
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
+//        setCity.findViewById(R.id.citySetBtn);
 
     }
 
